@@ -1,0 +1,5 @@
+To list all wifi available:
+  netsh wlan show profiles
+
+To expose wifi password:
+  netsh wlan show profiles "wifi_name" key=clear
